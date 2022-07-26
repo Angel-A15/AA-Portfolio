@@ -53,7 +53,7 @@ header nav ul li a {
 footer {
     display: flex;
     width: 100%;
-    padding: 40px 35px;
+    padding: 80px 99px 50px;
     justify-content: space-between;
     flex-wrap: wrap;
 
@@ -65,7 +65,7 @@ footer h3{
 
 section {
     margin: auto auto auto 600px;
-    padding: 250px;
+    padding: 50px;
 }
 
 
@@ -80,7 +80,63 @@ div ul li {
     font-size: 21px;
 
 }
+.container {
+    position: relative;
+}
 
+.bptext {
+    border:5px solid black;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(2, 2, 2);
+    color: black;
+    margin: 100px;
+
+}
+.big-p {
+    border: 5px solid rgb(0, 0, 0);
+    width: 90%;
+    height: 500px;
+    
+}
+
+.ptext {
+    border: 3px solid black;
+    border-radius: 15px 15px 15px 15px;
+    background-color: white;
+    position: absolute;
+    margin: 160px 5px 1%;
+    background-color: none;
+    color: black;
+
+}
+.lil-p {
+    border: 5px solid rgb(0, 0, 0);
+    height:200px;
+    width:50%;
+}
+
+.lil-p:hover {
+    border-color: blue;
+}
+
+.big-p:hover {
+    border-color: blue;
+}
+.work {
+    background: rgb(255, 205, 149);
+}
+.Contact-Me h2 {
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 15px 15px 15px 15px;
+    background-color: white;
+    position: absolute;
+}
+
+.contact-info {
+    margin: 50px 100px 0  0;
+}
 
 @media screen and (max-width: 980px) {
 

@@ -1,1 +1,94 @@
-/*
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    flex-wrap:wrap;
+    justify-content: space-between;
+    display: flex;
+    font-family:sans-serif;
+    background-image: url("../assets/pics/abart.jpg");
+    
+}
+
+header img {
+    
+    width: 120px;
+    height: 100px;
+    border-radius:10%;
+    
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0;
+}
+
+header nav {
+    margin: 10px 0;
+}
+
+header nav ul {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li{
+    font-size: 20px;
+    display: inline-block;
+
+}
+
+header nav ul li a {
+    padding:10px 15px;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    padding: 40px 35px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+footer h3{
+    font-size: 15px;
+}
+
+section {
+    margin: auto auto auto 600px;
+    padding: 250px;
+}
+
+
+div ul {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+div ul li {
+    list-style: none;
+    font-size: 21px;
+
+}
+
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 575px) {
+
+}

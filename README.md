@@ -8,6 +8,6 @@ Employers or any other individual interested will be able to accessively view:
 
 *Information about myself and experiance in coding
 
-*Projects that I worked on
+*Projects that I've worked on
 
-*Information and how to reach me
+*Information on how to reach me

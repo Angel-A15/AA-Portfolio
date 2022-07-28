@@ -20,4 +20,4 @@ Employers or any other individual interested will be able to accessively view:
 
 ##Link to the Page
 
-[https://angel-a15.github.io/Portfolio-Homebase/]
+[https://angel-a15.github.io/Portfolio-Homebase/](https://angel-a15.github.io/Portfolio-of-Life/)

@@ -240,6 +240,20 @@ div ul li {
         padding: 60px 10px 10px 10px;
         border-radius: 2px;
     }
+    .contact-info {
+        margin-bottom: 50px;
+    
+        padding:0 30px;
+    }
+    footer {
+        display: flex;
+        width: 20%;
+        padding-bottom: 60px;
+        justify-content:end;
+        flex-wrap: wrap;
+        margin-left: 5px;
+    
+    }
 }
 
 
@@ -288,5 +302,21 @@ div ul li {
         padding: 80px 10px 10px 10px;
         border-radius: 2px;
     }
+    footer {
+        display: flex;
+        width: 20%;
+        padding: 10px 5px;
+        justify-content:end;
+        flex-wrap: wrap;
+        margin-left: 5px;
+    
+    }
+
+    .contact-info {
+        margin-bottom: 50px;
+    
+        padding:0 30px;
+    }
 }
+
 /*screen-adjust section*/

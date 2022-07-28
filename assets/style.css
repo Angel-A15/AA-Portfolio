@@ -4,11 +4,14 @@
     box-sizing: border-box;
 }
 
-
+/* body elemet*/
+body {
+    margin: 0;
+}
 /*header section*/
 header {
     flex-wrap:wrap;
-    justify-content: space-between;
+    justify-content: center;
     display: flex;
     font-family:sans-serif;
     background-image: url("../assets/pics/abart.jpg");
@@ -18,17 +21,21 @@ header {
 }
 
 header img {
+    justify-content: center;
+    display:wrap;
+    flex-wrap: wrap;
     border: 4px solid black;
-    width: 120px;
-    height: 140px;
+    width: 150px;
+    height: 160px;
     border-radius:15%;
+    margin-left: 20px;
     
 }
 
 header h1 {
     font-weight: bold;
     font-size: 40px;
-    margin: 0;
+    margin: 20px;
 }
 
 header nav {
@@ -47,11 +54,22 @@ header nav ul {
 header nav ul li{
     font-size: 20px;
     display: inline-block;
+    
 
 }
 
 header nav ul li a {
-    padding:10px 15px;
+    padding:150px ;
+    color:white;
+}
+
+.til-nav {
+    display:flex; 
+    flex-direction: column; 
+    align-items:center; 
+    justify-content:center; 
+    width: 100%;
+    color: white;
 }
 /*header section*/
  
@@ -89,10 +107,7 @@ footer h3{
 /*footer section*/
 
 
-section {
-    margin: auto auto auto 600px;
-    padding: 50px 20px;
-}
+
 
 
 div ul {
@@ -114,10 +129,11 @@ div ul li {
     border-radius: 15px 15px 15px 15px;
     background-color: white;
     position: absolute;
-    margin: 450px 5px 1%;
     background-color: none;
     color: black;
     padding: 5px;
+    margin-top: 450px;
+    margin-left: 6px;
 }
 
 .big-p {
@@ -132,11 +148,11 @@ div ul li {
     border-radius: 15px 15px 15px 15px;
     background-color: white;
     position: absolute;
-    margin: 160px 5px 1%;
     background-color: none;
     color: black;
     padding: 5px;
-
+    margin-left: 6px;
+    margin-top: 170px;
 }
 .lil-p {
     
@@ -153,7 +169,8 @@ div ul li {
     border-color: blue;
 }
 .bckcl {
-    background: rgb(255, 205, 149);
+    margin-left: 600px;
+    margin-top: 160px;
 }
 /*my projects section*/
 
@@ -177,14 +194,99 @@ div ul li {
 
 
 /*screen-adjust section*/
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1280px) {
+    .bckcl {
+        margin-left: 0%;
+    }
 
+    .lil-p {
+        align-items: center;
+        width:100%;
+        height: 400px;
+    }
+    .big-p {
+        width:100%;
+        height:500px;
+    }
+    
+    .ptext {
+        border: 3px solid black;
+        border-radius: 0%;
+        background-color: rgb(253, 228, 191);
+        position: relative;
+        background-color: none;
+        color: black;
+        padding: 5px;
+        margin-left: 6px;
+        margin-top: 170px;
+    }
+
+    #bptxt {
+        border: 3px solid black;
+        border-radius: 0%;
+        background-color: rgb(253, 228, 191);
+        position: relative;
+        background-color: none;
+        color: black;
+        padding: 5px;
+        margin-top: 450px;
+        margin-left: 6px;
+    }
+    #About-Me article p {
+        font-size: 40px;
+        display:flex;
+        background-color: white;
+        width: 90%;
+        padding: 60px 10px 10px 10px;
+        border-radius: 2px;
+    }
 }
 
-@media screen and (max-width: 768px) {
 
-}
 @media screen and (max-width: 575px) {
+    .bckcl {
+        margin-left: 0%;
+    }
 
+    .lil-p {
+        align-items: center;
+        width:100%;
+    }
+    .big-p {
+        width:100%;
+        height:300px;
+    }
+    .ptext {
+        border: 3px solid black;
+        border-radius: 0%;
+        background-color: rgb(253, 228, 191);
+        position: relative;
+        background-color: none;
+        color: black;
+        padding: 5px;
+        margin-left: 6px;
+        margin-top: 170px;
+    }
+
+    #bptxt {
+        border: 3px solid black;
+        border-radius: 0%;
+        background-color: rgb(253, 228, 191);
+        position: relative;
+        background-color: none;
+        color: black;
+        padding: 5px;
+        margin-top: 450px;
+        margin-left: 6px;
+    }
+    
+    #About-Me article p {
+        font-size: 40px;
+        display:flex;
+        background-color: white;
+        width: 90%;
+        padding: 80px 10px 10px 10px;
+        border-radius: 2px;
+    }
 }
 /*screen-adjust section*/
